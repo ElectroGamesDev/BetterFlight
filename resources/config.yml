@@ -1,0 +1,20 @@
+# The player will lose their flight if they are hit by another player if "LoseFlightWhenHit" = true.
+LoseFlightWhenHit: true
+# The message the player will receive when they lose flight due to hitting or being hit.
+LoseFlightMsg: "§cFlight has been disabled due to combat"
+
+# The message the player will receive when they disable flight
+FlightDisabledMsg: "§cFlight has been disabled"
+# The message the player will receive when they enable flight
+FlightEnabledMsg: "§aFlight has been enabled"
+# The message the player will receive when they enable flight in creative mode
+SurvivalOnlyMsg: "§cFlight can only be enabled in survival"
+# The message the player will receive when they enable flight in blacklisted world
+FlightDisabledInWorldMsg: "§cFlight is disabled in this world"
+
+# If Mode = "Whitelist", flight will be allowed in all worlds in "Worlds". If Mode = "Blacklist", flight will not be allowed in all worlds in "Worlds".
+Mode: Blacklist
+# Worlds in "Worlds" are the worlds that you can'canlt fly in, dependiong on the mode. If you want flight alowed in all worlds, turn on Blacklist mode and leave Worlds empty.
+# Heres an example of how "Worlds" should look.
+# Worlds: ["SkyBlock", "Mine", "Lobby"]
+Worlds: []

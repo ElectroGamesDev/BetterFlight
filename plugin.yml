@@ -1,0 +1,17 @@
+name: BetterFlight
+version: 1.0.0
+main: Electro\BetterFlight\BetterFlight
+api: 4.0.0
+author: Electro
+
+commands:
+  flight:
+    usage: /flight
+    aliases: [fly]
+    description: Activate Flight
+    permission: BetterFlight.cmd
+
+permissions:
+  BetterFlight.cmd:
+    description: Permission to use flight command
+    default: op
